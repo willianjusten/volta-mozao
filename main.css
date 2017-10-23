@@ -31,16 +31,16 @@ h2 {
 }
 
 .top {
-  top: 100px;
+  top: 10vh;
 }
 
 .bottom {
-  bottom: 100px;
+  bottom: 10vh;
 }
 
 .label-bottom {
   color: #adafb2;
-  bottom: 70px;
+  bottom: 6vh;
   font-size: 2vw;
   text-align: center;
   text-transform: uppercase;
