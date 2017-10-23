@@ -8,6 +8,12 @@
   box-sizing: inherit;
 }
 
+body {
+  background-image: url('day-1.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
 html,
 body {
   background-color: #000;
@@ -17,7 +23,7 @@ body {
 }
 
 h2 {
-  color: #adafb2;
+  color: #fff;
   font-size: 5vw;
   text-align: center;
   text-transform: uppercase;
@@ -39,7 +45,7 @@ h2 {
 }
 
 .label-bottom {
-  color: #adafb2;
+  color: #fff;
   bottom: 6vh;
   font-size: 2vw;
   text-align: center;
@@ -58,6 +64,7 @@ ul#countdown {
   border-width: 1px 0;
   overflow: hidden;
   font-weight: bold;
+  background: rgba(0, 0, 0, .3);
 }
 ul#countdown li {
   margin: 0 -3px 0 0;
@@ -69,7 +76,7 @@ ul#countdown li {
   text-align: center;
 }
 ul#countdown li .label {
-  color: #adafb2;
+  color: #fff;
   font-size: 18px;
   font-size: 1.5vw;
   text-transform: uppercase;
