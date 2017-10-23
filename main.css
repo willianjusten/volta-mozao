@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+}
+
+h2 {
+  color: #adafb2;
+  font-size: 5vw;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+.top,
+.bottom,
+.label-bottom {
+  position: absolute;
+  width: 100%;
+}
+
+.top {
+  top: 100px;
+}
+
+.bottom {
+  bottom: 100px;
+}
+
+.label-bottom {
+  color: #adafb2;
+  bottom: 70px;
+  font-size: 2vw;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+ul#countdown {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50%;
+  margin: 0 auto;
+  padding: 15px 0 20px 0;
+  color: #fff;
+  border: 1px solid #adafb2;
+  border-width: 1px 0;
+  overflow: hidden;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+}
+ul#countdown li {
+  margin: 0 -3px 0 0;
+  padding: 0;
+  display: inline-block;
+  width: 25%;
+  font-size: 72px;
+  font-size: 6vw;
+  text-align: center;
+}
+ul#countdown li .label {
+  color: #adafb2;
+  font-size: 18px;
+  font-size: 1.5vw;
+  text-transform: uppercase;
+}
+
+@media(max-width: 756px) {
+  ul#countdown {
+    width: 70%;
+  }
+
+  ul#countdown li {
+    font-size: 10vw;
+  }
+
+  ul#countdown li .label {
+    font-size: 3.5vw;
+  }
+}
