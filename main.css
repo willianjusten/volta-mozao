@@ -24,9 +24,10 @@ body {
 
 h2 {
   color: #fff;
-  font-size: 5vw;
+  font-size: 40px;
   text-align: center;
   text-transform: uppercase;
+  text-shadow: 1px 1px 1px #000;
 }
 
 .top,
@@ -37,19 +38,31 @@ h2 {
 }
 
 .top {
-  top: 10vh;
+  top: 20vh;
 }
 
 .bottom {
-  bottom: 10vh;
+  bottom: 20vh;
 }
 
 .label-bottom {
   color: #fff;
-  bottom: 6vh;
-  font-size: 2vw;
+  bottom: 8vh;
+  font-size: 24px;
   text-align: center;
   text-transform: uppercase;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.label-photo {
+  color: #fff;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-size: 26px;
+  bottom: 2vh;
+  font-weight: 100;
+  text-shadow: 1px 1px 1px #000;
 }
 
 ul#countdown {
@@ -93,5 +106,17 @@ ul#countdown li .label {
 
   ul#countdown li .label {
     font-size: 3.5vw;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .label-bottom {
+    font-size: 15px;
+  }
+
+  .label-photo {
+    font-size: 14px;
   }
 }
