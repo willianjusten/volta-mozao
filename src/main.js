@@ -73,16 +73,13 @@ const countDownTimer = () => {
  * TRANSITION NUMBERS FROM 0
    TO CURRENT TIME UNTIL LAUNCH
  * -------------------------- */
-const numberTransition = (id, endPoint, transitionDuration, transitionEase) => {
-  // Transition numbers from 0 to the final number
-  $({numberCount: $(id).text()}).animate({numberCount: endPoint}, {
-      duration: transitionDuration,
-      easing:transitionEase,
-      step: function() {
-        $(id).text(Math.floor(this.numberCount));
-      },
-      complete: function() {
-        $(id).text(this.numberCount);
-      }
-   });
+const numberTransition = (id, endPoint) => {
+  let initial_number = 0;
+
+  setInterval(() => {
+    if (initial_number < endPoint) {
+      initial_number ++;
+      document.querySelector(id).textContent = initial_number;
+    };
+  }, 10);
 };
