@@ -1,0 +1,25 @@
+{
+  "name": "volta-mozao",
+  "version": "1.0.0",
+  "description": "Uma brincadeirinha que fiz para minha namorada para que ela possa contar os dias para eu voltar da minha viagem para a Espanha. Eu fiz o site no aeroporto em pouco tempo e sim, tá avacalhado, mas funciona :troll:",
+  "main": "main.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && ./node_modules/.bin/babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willianjusten/volta-mozao.git"
+  },
+  "author": "Sergio Henrique Pereira Reis <sergio.hpreis@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/willianjusten/volta-mozao/issues"
+  },
+  "homepage": "https://github.com/willianjusten/volta-mozao#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "rimraf": "^2.6.2"
+  }
+}
