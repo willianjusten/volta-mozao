@@ -76,10 +76,12 @@ const countDownTimer = () => {
 const numberTransition = (id, endPoint) => {
   let initial_number = 0;
 
-  setInterval(() => {
+  const interval = setInterval(() => {
     if (initial_number < endPoint) {
       initial_number ++;
       document.querySelector(id).textContent = initial_number;
+    } else if (initial_number === endPoint) {
+      clearInterval(interval);
     };
   }, 10);
 };
