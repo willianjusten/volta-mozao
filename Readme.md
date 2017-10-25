@@ -4,11 +4,16 @@ Uma brincadeirinha que fiz para minha namorada para que ela possa contar os dias
 
 ## Getting Started
 
-1. Clone este repositório:  
-`git clone https://github.com/willianjusten/volta-mozao.git`
+1. Clone this:  
+HTTP: `git clone https://github.com/willianjusten/volta-mozao.git`  
+SSH: `git clone git@github.com:willianjusten/volta-mozao.git`
 
-2. Instale as dependências:  
-`npm install`
+2. Install dependencies:  
+`npm install`  
+or (if use yarn)  
+`yarn`
 
-3. Faça o build:  
-`npm run build`
+3. Make build:  
+`npm run build`  
+or (if use yarn)  
+`yarn build`

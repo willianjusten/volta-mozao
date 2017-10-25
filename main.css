@@ -147,7 +147,5 @@ ul#countdown li .label {
     width: 35px;
     height: 35px;
     font-size: 25px;
-    top: 50%;
-    transform: translateY(-50%);
   }
 }
