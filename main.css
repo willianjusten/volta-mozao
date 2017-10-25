@@ -93,6 +93,31 @@ ul#countdown li .label {
   text-transform: uppercase;
 }
 
+/*SLIDE THINGS*/
+[class^="photo-"]{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: 'Roboto', sans-serif;
+  width: 100px;
+  height: 100px;
+  font-size: 50px;
+  border-radius: 50%;
+  background: rgba(0,0,0,.3);
+  color: rgba(255,255,255,1);
+  border: 0;
+}
+[class^="photo-"]:hover{
+  background: rgba(0,0,0,.8);
+  cursor: pointer;
+}
+.photo-prev{
+  left: 10px;
+}
+.photo-next{
+  right: 10px;
+}
+
 @media(max-width: 756px) {
   ul#countdown {
     width: 70%;
@@ -117,29 +142,12 @@ ul#countdown li .label {
   .label-photo {
     font-size: 14px;
   }
-}
 
-/*SLIDE THINGS*/
-[class^="photo-"]{
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-family: 'Roboto', sans-serif;
-  width: 100px;
-  height: 100px;
-  font-size: 50px;
-  border-radius: 50%;
-  background: rgba(0,0,0,.3);
-  color: rgba(255,255,255,1);
-  border: 0;
-}
-[class^="photo-"]:hover{
-  background: rgba(0,0,0,.8);
-  cursor: pointer;
-}
-.photo-prev{
-  left: 10px;
-}
-.photo-next{
-  right: 10px;
+  [class^="photo-"]{
+    width: 35px;
+    height: 35px;
+    font-size: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 }
