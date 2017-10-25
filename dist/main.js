@@ -1,5 +1,52 @@
 "use strict";
 
+var content = [{
+    "day": "1",
+    "photo": "images/day-1.jpg",
+    "label": "Foto: Noite em Madrid - Paroquia de San Manuel e San Benito"
+}, {
+    "day": "2",
+    "photo": "https://scontent.fcgh9-1.fna.fbcdn.net/v/t1.0-9/22196325_1499931123408679_6500376721665788217_n.jpg?oh=b2ddb28485cd32225865a5df72287f8d&oe=5A69DF0B",
+    "label": "<3"
+}, {
+    "day": "3",
+    "photo": "https://scontent.fcgh9-1.fna.fbcdn.net/v/t31.0-8/22528787_1512252162176575_763752136163817630_o.jpg?oh=a94b74d1b0cb074c22e8a259d8b339af&oe=5A68117B",
+    "label": "S2"
+}];
+
+// LET LAST ITEM INSERT IN CONTENT TO TRANSFORM THIS IN SELECTED LABEL AT HTML TEMPLATE
+var lastItemContent = content.length - 1;
+
+var actualToday = content.length;
+
+// TRY IF YOUR BROWSER SUPPORT HTML TEMPLATE CHECKING THE "CONTENT" ATTRIBUTE AT TEMPLATE ELEMENT
+if ('content' in document.createElement('template')) {
+
+    var label = document.querySelector('#photoLabel'),
+        p = label.content.querySelector('.label-photo');
+    p.textContent = content[lastItemContent].label;
+
+    document.querySelector('.label-photo').appendChild(p);
+}
+//IF HTML TEMPLATE IS NOT SUPORTED USE THIS
+else {
+
+        // ALTERNATIVE METHOD TO INSERT LABEL AT PAGE
+        document.querySelector('.label-photo').textContent = content[lastItemContent].label;
+    }
+
+// INSERT LAST NODE PHOTO VALUE IN BODY BACKGROUND
+document.body.style.backgroundImage = "url(" + content[lastItemContent].photo + ")";
+
+// REMOVE TEMPLATE FROM PAGE AFTER LOAD
+function removeTemplate() {
+
+    document.querySelector('template').remove();
+}
+
+window.onload = removeTemplate;
+"use strict";
+
 /* --------------------------
  * GLOBAL VARS
  * -------------------------- */
@@ -87,3 +134,60 @@ var numberTransition = function numberTransition(id, endPoint) {
     };
   }, 10);
 };
+'use strict';
+
+function containsSelector(selector) {
+    return document.querySelector(selector) != null;
+}
+
+// INITIATE SLIDE PHOTOS FUNCTIONALITY
+if (content.length > 1) {
+
+    var nextPhoto = document.createElement('button');
+
+    nextPhoto.classList.add('photo-next');
+
+    nextPhoto.innerHTML = ">";
+
+    var prevPhoto = document.createElement('button');
+
+    prevPhoto.classList.add('photo-prev');
+
+    prevPhoto.innerHTML = "<";
+
+    document.body.appendChild(prevPhoto);
+}
+
+if (containsSelector('.photo-prev')) {
+    prevPhoto.addEventListener('click', function () {
+
+        var dayShowed = actualToday -= 1;
+
+        document.body.style.backgroundImage = "url(" + content[dayShowed - 1].photo + ")";
+
+        document.querySelector('.label-photo').textContent = content[dayShowed - 1].label;
+
+        document.body.appendChild(nextPhoto);
+
+        if (dayShowed == 1) {
+
+            prevPhoto.remove();
+        }
+    });
+
+    nextPhoto.addEventListener('click', function () {
+
+        var dayShowed = actualToday += 1;
+
+        document.body.style.backgroundImage = "url(" + content[dayShowed - 1].photo + ")";
+
+        document.querySelector('.label-photo').textContent = content[dayShowed - 1].label;
+
+        document.body.appendChild(prevPhoto);
+
+        if (dayShowed >= content.length) {
+
+            nextPhoto.remove();
+        }
+    });
+}
