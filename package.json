@@ -5,7 +5,8 @@
   "main": "main.js",
   "scripts": {
     "clean": "rimraf dist",
-    "build": "npm run clean && ./node_modules/.bin/babel src -d dist"
+    "build": "npm run clean && ./node_modules/.bin/babel src -d dist",
+    "prepush": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
+    "husky": "^0.14.3",
     "rimraf": "^2.6.2"
   }
 }
