@@ -5,7 +5,8 @@
   "main": "main.js",
   "scripts": {
     "clean": "rimraf dist",
-    "build": "npm run clean && ./node_modules/.bin/babel src -d dist",
+    "watch": "npm run clean && mkdir dist && ./node_modules/.bin/babel src -w --out-file dist/main.js",
+    "build": "npm run clean && mkdir dist && ./node_modules/.bin/babel src --out-file dist/main.js",
     "prepush": "npm run build"
   },
   "repository": {
