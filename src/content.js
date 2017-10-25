@@ -1,5 +1,10 @@
 var content = [
     {
+        "day":"0",
+        "photo":"images/day-0.jpg",
+        "label":"Dia chuvoso no Aeroporto do Rio"
+    },
+    {
         "day":"1",
         "photo":"images/day-1.jpg",
         "label":"Foto: Noite em Madrid - Paroquia de San Manuel e San Benito"
@@ -27,7 +32,7 @@ else{
 
     // ALTERNATIVE METHOD TO INSERT LABEL AT PAGE
     document.querySelector('.label-photo').textContent = content[lastItemContent].label;
-    
+
 }
 
 // INSERT LAST NODE PHOTO VALUE IN BODY BACKGROUND

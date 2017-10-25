@@ -1,17 +1,13 @@
 "use strict";
 
 var content = [{
+    "day": "0",
+    "photo": "images/day-0.jpg",
+    "label": "Dia chuvoso no Aeroporto do Rio"
+}, {
     "day": "1",
     "photo": "images/day-1.jpg",
     "label": "Foto: Noite em Madrid - Paroquia de San Manuel e San Benito"
-}, {
-    "day": "2",
-    "photo": "https://scontent.fcgh9-1.fna.fbcdn.net/v/t1.0-9/22196325_1499931123408679_6500376721665788217_n.jpg?oh=b2ddb28485cd32225865a5df72287f8d&oe=5A69DF0B",
-    "label": "<3"
-}, {
-    "day": "3",
-    "photo": "https://scontent.fcgh9-1.fna.fbcdn.net/v/t31.0-8/22528787_1512252162176575_763752136163817630_o.jpg?oh=a94b74d1b0cb074c22e8a259d8b339af&oe=5A68117B",
-    "label": "S2"
 }];
 
 // LET LAST ITEM INSERT IN CONTENT TO TRANSFORM THIS IN SELECTED LABEL AT HTML TEMPLATE
