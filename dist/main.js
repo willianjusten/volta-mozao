@@ -8,6 +8,10 @@ var content = [{
     "day": "1",
     "photo": "images/day-1.jpg",
     "label": "Foto: Noite em Madrid - Paroquia de San Manuel e San Benito"
+}, {
+    "day": "2",
+    "photo": "images/day-2.jpg",
+    "label": "Foto: Templo de Debod - Madrid"
 }];
 
 // LET LAST ITEM INSERT IN CONTENT TO TRANSFORM THIS IN SELECTED LABEL AT HTML TEMPLATE
