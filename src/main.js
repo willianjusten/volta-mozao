@@ -2,20 +2,20 @@
  * GLOBAL VARS
  * -------------------------- */
 // The date you want to count down to
-var targetDate = new Date("2017/12/13 19:35:00");
+const targetDate = new Date("2017/12/13 19:35:00");
 
 // Other date related variables
-var days;
-var hrs;
-var min;
-var sec;
+let days;
+let hrs;
+let min;
+let sec;
 
 /* --------------------------
  * ON DOCUMENT LOAD
  * -------------------------- */
-$(function() {
-   // Calculate time until launch date
-   timeToLaunch();
+document.addEventListener("DOMContentLoaded", () => {
+  // Calculate time until launch date
+  timeToLaunch();
   // Transition the current countdown from 0
   numberTransition('#days .number', days, 1000, 'easeOutQuad');
   numberTransition('#hours .number', hrs, 1000, 'easeOutQuad');
@@ -29,13 +29,13 @@ $(function() {
  * FIGURE OUT THE AMOUNT OF
    TIME LEFT BEFORE LAUNCH
  * -------------------------- */
-function timeToLaunch(){
+const timeToLaunch = () => {
     // Get the current date
-    var currentDate = new Date();
+    const currentDate = new Date();
 
     // Find the difference between dates
-    var diff = (currentDate - targetDate)/1000;
-    var diff = Math.abs(Math.floor(diff));
+    let diff = (currentDate - targetDate)/1000;
+    diff = Math.abs(Math.floor(diff));
 
     // Check number of days until target
     days = Math.floor(diff/(24*60*60));
@@ -54,16 +54,16 @@ function timeToLaunch(){
  * DISPLAY THE CURRENT
    COUNT TO LAUNCH
  * -------------------------- */
-function countDownTimer(){
+const countDownTimer = () => {
 
     // Figure out the time to launch
     timeToLaunch();
 
     // Write to countdown component
-    $( "#days .number" ).text(days);
-    $( "#hours .number" ).text(hrs);
-    $( "#minutes .number" ).text(min);
-    $( "#seconds .number" ).text(sec);
+    document.querySelector( "#days .number" ).textContent = days;
+    document.querySelector( "#hours .number" ).textContent = hrs;
+    document.querySelector( "#minutes .number" ).textContent = min;
+    document.querySelector( "#seconds .number" ).textContent = sec;
 
     // Repeat the check every second
     setTimeout(countDownTimer,1000);
@@ -73,16 +73,15 @@ function countDownTimer(){
  * TRANSITION NUMBERS FROM 0
    TO CURRENT TIME UNTIL LAUNCH
  * -------------------------- */
-function numberTransition(id, endPoint, transitionDuration, transitionEase){
-  // Transition numbers from 0 to the final number
-  $({numberCount: $(id).text()}).animate({numberCount: endPoint}, {
-      duration: transitionDuration,
-      easing:transitionEase,
-      step: function() {
-        $(id).text(Math.floor(this.numberCount));
-      },
-      complete: function() {
-        $(id).text(this.numberCount);
-      }
-   });
+const numberTransition = (id, endPoint) => {
+  let initial_number = 0;
+
+  const interval = setInterval(() => {
+    if (initial_number < endPoint) {
+      initial_number ++;
+      document.querySelector(id).textContent = initial_number;
+    } else if (initial_number === endPoint) {
+      clearInterval(interval);
+    };
+  }, 10);
 };
