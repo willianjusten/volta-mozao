@@ -118,3 +118,28 @@ ul#countdown li .label {
     font-size: 14px;
   }
 }
+
+/*SLIDE THINGS*/
+[class^="photo-"]{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: 'Roboto', sans-serif;
+  width: 100px;
+  height: 100px;
+  font-size: 50px;
+  border-radius: 50%;
+  background: rgba(0,0,0,.3);
+  color: rgba(255,255,255,1);
+  border: 0;
+}
+[class^="photo-"]:hover{
+  background: rgba(0,0,0,.8);
+  cursor: pointer;
+}
+.photo-prev{
+  left: 10px;
+}
+.photo-next{
+  right: 10px;
+}
