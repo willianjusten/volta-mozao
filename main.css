@@ -106,10 +106,19 @@ ul#countdown li .label {
   background: rgba(0,0,0,.3);
   color: rgba(255,255,255,1);
   border: 0;
+  transition: background .25s ease-in-out;
+  outline: 0;
+  text-indent: -999999px;
 }
 [class^="photo-"]:hover{
   background: rgba(0,0,0,.8);
   cursor: pointer;
+}
+[class^="photo-"]:focus{
+  background: rgba(0,0,0,.3);
+}
+[class^="photo-"]:focus:hover{
+  background: rgba(0,0,0,.8);
 }
 .photo-prev{
   left: 10px;
@@ -117,6 +126,25 @@ ul#countdown li .label {
 .photo-next{
   right: 10px;
 }
+.photo-prev:after{
+  content:"\2039";
+  left: calc(50% - 50px);
+}
+.photo-next:after{
+  content:"\203A";
+  left: calc(50% - 40px);
+}
+.photo-prev:after,
+.photo-next:after{
+  text-indent: 0px;
+  position: absolute;
+  top: calc(50% - 50px);
+  bottom: 0;
+  right: 0;
+  font-size: 1.5em;
+}
+
+
 
 @media(max-width: 756px) {
   ul#countdown {
@@ -147,5 +175,15 @@ ul#countdown li .label {
     width: 35px;
     height: 35px;
     font-size: 25px;
+  }
+  .photo-prev:after,
+  .photo-next:after{
+    top: calc(50% - 25px);
+  }
+  .photo-prev:after{
+    left: calc(50% - 20px);
+  }
+  .photo-next:after{
+    left: calc(50% - 15px);
   }
 }

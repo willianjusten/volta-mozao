@@ -155,13 +155,13 @@ if (content.length > 1) {
 
     nextPhoto.classList.add('photo-next');
 
-    nextPhoto.innerHTML = ">";
+    nextPhoto.innerHTML = "next";
 
     var prevPhoto = document.createElement('button');
 
     prevPhoto.classList.add('photo-prev');
 
-    prevPhoto.innerHTML = "<";
+    prevPhoto.innerHTML = "prev";
 
     document.body.appendChild(prevPhoto);
 }
