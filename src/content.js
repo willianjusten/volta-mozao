@@ -18,6 +18,11 @@ var content = [
         "day":"3",
         "photo":"images/day-3.jpg",
         "label":"Foto: Estación Santa Justa - Sevilla"
+    },
+    {
+        "day":"4",
+        "photo":"images/day-4.jpg",
+        "label":"Foto: Gato brincando com mini drone - Niebla"
     }
 ]
 
