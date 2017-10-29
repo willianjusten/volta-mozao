@@ -20,6 +20,10 @@ var content = [{
     "day": "4",
     "photo": "images/day-4.jpg",
     "label": "Foto: Gato brincando com mini drone - Niebla"
+}, {
+    "day": "5",
+    "photo": "images/day-5.jpg",
+    "label": "Foto: Navio no Canal Afonso XIII - Sevilla"
 }];
 
 // LET LAST ITEM INSERT IN CONTENT TO TRANSFORM THIS IN SELECTED LABEL AT HTML TEMPLATE
