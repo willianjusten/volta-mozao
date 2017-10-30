@@ -24,6 +24,10 @@ var content = [{
     "day": "5",
     "photo": "images/day-5.jpg",
     "label": "Foto: Navio no Canal Afonso XIII - Sevilla"
+}, {
+    "day": "6",
+    "photo": "images/day-6.jpg",
+    "label": "Foto: Las Setas - Sevilla"
 }];
 
 // LET LAST ITEM INSERT IN CONTENT TO TRANSFORM THIS IN SELECTED LABEL AT HTML TEMPLATE
