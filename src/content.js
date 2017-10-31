@@ -33,6 +33,11 @@ var content = [
         "day":"6",
         "photo":"images/day-6.jpg",
         "label":"Foto: Las Setas - Sevilla"
+    },
+    {
+        "day":"7",
+        "photo":"images/day-7.jpg",
+        "label":"Foto: Torre Schindler - Sevilla"
     }
 ]
 
