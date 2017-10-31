@@ -32,6 +32,10 @@ var content = [{
     "day": "7",
     "photo": "images/day-7.jpg",
     "label": "Foto: Torre Schindler - Sevilla"
+}, {
+    "day": "8",
+    "photo": "images/day-8.jpg",
+    "label": "Foto: Terreno de Finca Real - Niebla"
 }];
 
 // LET LAST ITEM INSERT IN CONTENT TO TRANSFORM THIS IN SELECTED LABEL AT HTML TEMPLATE
