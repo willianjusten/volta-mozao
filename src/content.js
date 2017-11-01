@@ -43,6 +43,11 @@ var content = [
         "day": "8",
         "photo": "images/day-8.jpg",
         "label": "Foto: Terreno de Finca Real - Niebla"
+    },
+    {
+        "day": "9",
+        "photo": "images/day-9.jpg",
+        "label": "Foto: El Muelle del Tinto - Huelva"
     }
 ]
 
