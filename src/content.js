@@ -48,6 +48,11 @@ var content = [
         "day": "9",
         "photo": "images/day-9.jpg",
         "label": "Foto: El Muelle del Tinto - Huelva"
+    },
+    {
+        "day": "10",
+        "photo": "images/day-10.jpg",
+        "label": "Foto: Entardecer numa rua qualquer - Huelva"
     }
 ]
 

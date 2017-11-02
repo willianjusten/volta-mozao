@@ -40,6 +40,10 @@ var content = [{
     "day": "9",
     "photo": "images/day-9.jpg",
     "label": "Foto: El Muelle del Tinto - Huelva"
+}, {
+    "day": "10",
+    "photo": "images/day-10.jpg",
+    "label": "Foto: Entardecer numa rua qualquer - Huelva"
 }];
 
 // LET LAST ITEM INSERT IN CONTENT TO TRANSFORM THIS IN SELECTED LABEL AT HTML TEMPLATE
