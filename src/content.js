@@ -53,6 +53,11 @@ var content = [
         "day": "10",
         "photo": "images/day-10.jpg",
         "label": "Foto: Entardecer numa rua qualquer - Huelva"
+    },
+    {
+        "day": "11",
+        "photo": "images/day-11.jpg",
+        "label": "Foto: Puente Nuevo - Ronda"
     }
 ]
 
