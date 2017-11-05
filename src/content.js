@@ -63,6 +63,11 @@ var content = [
         "day": "12",
         "photo": "images/day-12.jpg",
         "label": "Foto: El Tajo Gorge - Ronda"
+    },
+    {
+        "day": "13",
+        "photo": "images/day-13.jpg",
+        "label": "Foto: Centre Pompidou - Malága"
     }
 ]
 
