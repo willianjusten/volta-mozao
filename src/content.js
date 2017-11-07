@@ -73,6 +73,11 @@ var content = [
         "day": "14",
         "photo": "images/day-14.jpg",
         "label": "Foto: Visto do Castillo de Gibraltar - Malága"
+    },
+    {
+        "day": "15",
+        "photo": "images/day-15.jpg",
+        "label": "Foto: Muelle Uno - Malága"
     }
 ]
 
