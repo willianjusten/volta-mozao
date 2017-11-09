@@ -83,6 +83,11 @@ var content = [
         "day": "16",
         "photo": "images/day-16.jpg",
         "label": "Foto: Alhambra/Alcazar - Granada"
+    },
+    {
+        "day": "17",
+        "photo": "images/day-17.jpg",
+        "label": "Foto: Reflexo da Torre de Alhambra - Granada"
     }
 ]
 
