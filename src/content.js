@@ -93,6 +93,11 @@ var content = [
         "day": "18",
         "photo": "images/day-18.jpg",
         "label": "Foto: Luminárias em Lojas Árabes  - Granada"
+    },
+    {
+        "day": "19",
+        "photo": "images/day-19.jpg",
+        "label": "Foto: Мonumento a las culturas del Mediterraneo - Torrevieja"
     }
 ]
 
