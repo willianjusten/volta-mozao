@@ -98,6 +98,11 @@ var content = [
         "day": "19",
         "photo": "images/day-19.jpg",
         "label": "Foto: Мonumento a las culturas del Mediterraneo - Torrevieja"
+    },
+    {
+        "day": "20",
+        "photo": "images/day-20.jpg",
+        "label": "Foto: Laguna Rosa - Torrevieja"
     }
 ]
 
