@@ -103,6 +103,11 @@ var content = [
         "day": "20",
         "photo": "images/day-20.jpg",
         "label": "Foto: Laguna Rosa - Torrevieja"
+    },
+    {
+        "day": "21",
+        "photo": "images/day-21.jpg",
+        "label": "Foto: Pier y Farola - Torrevieja"
     }
 ]
 
