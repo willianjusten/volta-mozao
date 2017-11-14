@@ -108,6 +108,11 @@ var content = [
         "day": "21",
         "photo": "images/day-21.jpg",
         "label": "Foto: Pier y Farola - Torrevieja"
+    },
+    {
+        "day": "22",
+        "photo": "images/day-22.jpg",
+        "label": "Foto: Cliffs perto de La Mata - Torrevieja"
     }
 ]
 
