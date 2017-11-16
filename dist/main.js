@@ -96,6 +96,10 @@ var content = [{
     "day": "23",
     "photo": "images/day-23.jpg",
     "label": "Foto: L'Hemisferic - Valencia"
+}, {
+    "day": "24",
+    "photo": "images/day-24.jpg",
+    "label": "Foto: L'Umbracle - Valencia"
 }];
 
 // LET LAST ITEM INSERT IN CONTENT TO TRANSFORM THIS IN SELECTED LABEL AT HTML TEMPLATE
