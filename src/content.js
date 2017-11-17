@@ -123,6 +123,11 @@ var content = [
         "day": "24",
         "photo": "images/day-24.jpg",
         "label": "Foto: L'Umbracle - Valencia"
+    },
+    {
+        "day": "25",
+        "photo": "images/day-25.jpg",
+        "label": "Foto: Estrela do Mar no Oceanografic - Valencia"
     }
 ]
 
