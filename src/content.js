@@ -128,7 +128,13 @@ var content = [
         "day": "25",
         "photo": "images/day-25.jpg",
         "label": "Foto: Estrela do Mar no Oceanografic - Valencia"
+    },
+    {
+        "day": "26",
+        "photo": "images/day-26.jpg",
+        "label": "Foto: Museu Guggenhein e Ponte de La Salve - Bilbao"
     }
+
 ]
 
 // LET LAST ITEM INSERT IN CONTENT TO TRANSFORM THIS IN SELECTED LABEL AT HTML TEMPLATE
