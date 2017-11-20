@@ -112,6 +112,10 @@ var content = [{
     "day": "27",
     "photo": "images/day-27.jpg",
     "label": "Foto: Estádio San Mamés Zelaia - Bilbao"
+}, {
+    "day": "28",
+    "photo": "images/day-28.jpg",
+    "label": "Foto: Puppy Guggenhein- Bilbao"
 }];
 
 // LET LAST ITEM INSERT IN CONTENT TO TRANSFORM THIS IN SELECTED LABEL AT HTML TEMPLATE
