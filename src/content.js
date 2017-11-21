@@ -142,7 +142,12 @@ var content = [
     {
         "day": "28",
         "photo": "images/day-28.jpg",
-        "label": "Foto: Puppy Guggenhein- Bilbao"
+        "label": "Foto: Puppy Guggenhein - Bilbao"
+    },
+    {
+        "day": "29",
+        "photo": "images/day-29.jpg",
+        "label": "Foto: Gaztelugatxe - Bakio"
     }
 ]
 

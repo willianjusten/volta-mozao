@@ -115,7 +115,11 @@ var content = [{
 }, {
     "day": "28",
     "photo": "images/day-28.jpg",
-    "label": "Foto: Puppy Guggenhein- Bilbao"
+    "label": "Foto: Puppy Guggenhein - Bilbao"
+}, {
+    "day": "29",
+    "photo": "images/day-29.jpg",
+    "label": "Foto: Gaztelugatxe - Bakio"
 }];
 
 // LET LAST ITEM INSERT IN CONTENT TO TRANSFORM THIS IN SELECTED LABEL AT HTML TEMPLATE
