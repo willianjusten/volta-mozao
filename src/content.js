@@ -148,6 +148,11 @@ var content = [
         "day": "29",
         "photo": "images/day-29.jpg",
         "label": "Foto: Gaztelugatxe - Bakio"
+    },
+    {
+        "day": "30",
+        "photo": "images/day-30.jpg",
+        "label": "Foto: Feliz 6 meses sua chatinha! <3"
     }
 ]
 

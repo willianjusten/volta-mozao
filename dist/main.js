@@ -120,6 +120,10 @@ var content = [{
     "day": "29",
     "photo": "images/day-29.jpg",
     "label": "Foto: Gaztelugatxe - Bakio"
+}, {
+    "day": "30",
+    "photo": "images/day-30.jpg",
+    "label": "Foto: Feliz 6 meses sua chatinha! <3"
 }];
 
 // LET LAST ITEM INSERT IN CONTENT TO TRANSFORM THIS IN SELECTED LABEL AT HTML TEMPLATE
