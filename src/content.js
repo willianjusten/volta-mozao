@@ -153,6 +153,11 @@ var content = [
         "day": "30",
         "photo": "images/day-30.jpg",
         "label": "Foto: Feliz 6 meses sua chatinha! <3"
+    },
+    {
+        "day": "31",
+        "photo": "images/day-31.jpg",
+        "label": "Foto: Aviso no Airbnb - Santander"
     }
 ]
 

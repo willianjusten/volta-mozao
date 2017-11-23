@@ -124,6 +124,10 @@ var content = [{
     "day": "30",
     "photo": "images/day-30.jpg",
     "label": "Foto: Feliz 6 meses sua chatinha! <3"
+}, {
+    "day": "31",
+    "photo": "images/day-31.jpg",
+    "label": "Foto: Aviso no Airbnb - Santander"
 }];
 
 // LET LAST ITEM INSERT IN CONTENT TO TRANSFORM THIS IN SELECTED LABEL AT HTML TEMPLATE
