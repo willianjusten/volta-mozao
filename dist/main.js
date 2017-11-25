@@ -132,6 +132,10 @@ var content = [{
     "day": "32",
     "photo": "images/day-32.jpg",
     "label": "Foto: Vitrine diferente - Madrid (num tem pé =p)"
+}, {
+    "day": "33",
+    "photo": "images/day-33.jpg",
+    "label": "Foto: Pinguim Estiloso - Santander"
 }];
 
 // LET LAST ITEM INSERT IN CONTENT TO TRANSFORM THIS IN SELECTED LABEL AT HTML TEMPLATE

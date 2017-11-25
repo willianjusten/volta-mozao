@@ -163,6 +163,11 @@ var content = [
         "day": "32",
         "photo": "images/day-32.jpg",
         "label": "Foto: Vitrine diferente - Madrid (num tem pé =p)"
+    },
+    {
+        "day": "33",
+        "photo": "images/day-33.jpg",
+        "label": "Foto: Pinguim Estiloso - Santander"
     }
 ]
 
