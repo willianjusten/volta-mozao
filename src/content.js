@@ -168,6 +168,11 @@ var content = [
         "day": "33",
         "photo": "images/day-33.jpg",
         "label": "Foto: Pinguim Estiloso - Santander"
+    },
+    {
+        "day": "34",
+        "photo": "images/day-34.jpg",
+        "label": "Foto: Cabo Mayor - Santander"
     }
 ]
 
