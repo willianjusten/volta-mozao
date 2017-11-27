@@ -140,6 +140,10 @@ var content = [{
     "day": "34",
     "photo": "images/day-34.jpg",
     "label": "Foto: Cabo Mayor - Santander"
+}, {
+    "day": "35",
+    "photo": "images/day-35.jpg",
+    "label": "Foto: Cabo Mayor - Santander"
 }];
 
 // LET LAST ITEM INSERT IN CONTENT TO TRANSFORM THIS IN SELECTED LABEL AT HTML TEMPLATE

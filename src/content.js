@@ -173,6 +173,11 @@ var content = [
         "day": "34",
         "photo": "images/day-34.jpg",
         "label": "Foto: Cabo Mayor - Santander"
+    },
+    {
+        "day": "35",
+        "photo": "images/day-35.jpg",
+        "label": "Foto: Cabo Mayor - Santander"
     }
 ]
 
