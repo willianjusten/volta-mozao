@@ -178,6 +178,11 @@ var content = [
         "day": "35",
         "photo": "images/day-35.jpg",
         "label": "Foto: Cabo Mayor - Santander"
+    },
+    {
+        "day": "36",
+        "photo": "images/day-36.jpg",
+        "label": "Foto: Lagos de Covadonga - Covadonga"
     }
 ]
 
