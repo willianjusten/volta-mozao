@@ -148,6 +148,10 @@ var content = [{
     "day": "36",
     "photo": "images/day-36.jpg",
     "label": "Foto: Lagos de Covadonga - Covadonga"
+}, {
+    "day": "37",
+    "photo": "images/day-37.jpg",
+    "label": "Foto: Santuário de Covadonga envolto em névoa - Covadonga"
 }];
 
 // LET LAST ITEM INSERT IN CONTENT TO TRANSFORM THIS IN SELECTED LABEL AT HTML TEMPLATE
