@@ -188,6 +188,11 @@ var content = [
         "day": "37",
         "photo": "images/day-37.jpg",
         "label": "Foto: Santuário de Covadonga envolto em névoa - Covadonga"
+    },
+    {
+        "day": "38",
+        "photo": "images/day-38.jpg",
+        "label": "Foto: Amigão - Oviedo"
     }
 ]
 
