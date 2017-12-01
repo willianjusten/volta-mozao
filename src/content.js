@@ -193,6 +193,11 @@ var content = [
         "day": "38",
         "photo": "images/day-38.jpg",
         "label": "Foto: Amigão - Oviedo"
+    },
+    {
+        "day": "39",
+        "photo": "images/day-39.jpg",
+        "label": "Foto: Estátua da Mafalda - Oviedo"
     }
 ]
 
