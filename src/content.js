@@ -198,6 +198,11 @@ var content = [
         "day": "39",
         "photo": "images/day-39.jpg",
         "label": "Foto: Estátua da Mafalda - Oviedo"
+    },
+    {
+        "day": "40",
+        "photo": "images/day-40.jpg",
+        "label": "Foto: Estande simpática no Airbnb - Santiago de Compostela"
     }
 ]
 
