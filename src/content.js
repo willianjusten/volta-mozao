@@ -203,6 +203,11 @@ var content = [
         "day": "40",
         "photo": "images/day-40.jpg",
         "label": "Foto: Estande simpática no Airbnb - Santiago de Compostela"
+    },
+    {
+        "day": "41",
+        "photo": "images/day-41.jpg",
+        "label": "Foto: Ruas estreitas - Santiago de Compostela"
     }
 ]
 
