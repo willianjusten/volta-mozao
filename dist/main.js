@@ -168,6 +168,10 @@ var content = [{
     "day": "41",
     "photo": "images/day-41.jpg",
     "label": "Foto: Ruas estreitas - Santiago de Compostela"
+}, {
+    "day": "42",
+    "photo": "images/day-42.jpg",
+    "label": "Foto: Só trabalhei hoje, volte amanhã - Santiago de Compostela"
 }];
 
 // LET LAST ITEM INSERT IN CONTENT TO TRANSFORM THIS IN SELECTED LABEL AT HTML TEMPLATE

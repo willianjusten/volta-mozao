@@ -208,6 +208,11 @@ var content = [
         "day": "41",
         "photo": "images/day-41.jpg",
         "label": "Foto: Ruas estreitas - Santiago de Compostela"
+    },
+    {
+        "day": "42",
+        "photo": "images/day-42.jpg",
+        "label": "Foto: Só trabalhei hoje, volte amanhã - Santiago de Compostela"
     }
 ]
 
