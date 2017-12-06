@@ -218,6 +218,11 @@ var content = [
         "day": "43",
         "photo": "images/day-43.jpg",
         "label": "Foto: Uma das mil igrejas - Santiago de Compostela"
+    },
+    {
+        "day": "44",
+        "photo": "images/day-44.jpg",
+        "label": "Foto: Sacada do meu Airbnb - Vigo"
     }
 ]
 

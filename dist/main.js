@@ -176,6 +176,10 @@ var content = [{
     "day": "43",
     "photo": "images/day-43.jpg",
     "label": "Foto: Uma das mil igrejas - Santiago de Compostela"
+}, {
+    "day": "44",
+    "photo": "images/day-44.jpg",
+    "label": "Foto: Uma das mil igrejas - Santiago de Compostela"
 }];
 
 // LET LAST ITEM INSERT IN CONTENT TO TRANSFORM THIS IN SELECTED LABEL AT HTML TEMPLATE
