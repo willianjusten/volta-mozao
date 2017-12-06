@@ -179,7 +179,7 @@ var content = [{
 }, {
     "day": "44",
     "photo": "images/day-44.jpg",
-    "label": "Foto: Uma das mil igrejas - Santiago de Compostela"
+    "label": "Foto: Sacada do meu Airbnb - Vigo"
 }];
 
 // LET LAST ITEM INSERT IN CONTENT TO TRANSFORM THIS IN SELECTED LABEL AT HTML TEMPLATE
