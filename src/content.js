@@ -223,6 +223,11 @@ var content = [
         "day": "44",
         "photo": "images/day-44.jpg",
         "label": "Foto: Sacada do meu Airbnb - Vigo"
+    },
+    {
+        "day": "45",
+        "photo": "images/day-45.jpg",
+        "label": "Foto: Trabalhando num Starbucks qualquer - Vigo"
     }
 ]
 
