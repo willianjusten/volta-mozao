@@ -188,6 +188,10 @@ var content = [{
     "day": "46",
     "photo": "images/day-46.jpg",
     "label": "Foto: Mais um dia chuvoso - Vigo"
+}, {
+    "day": "47",
+    "photo": "images/day-47.jpg",
+    "label": "Foto: Passatempo do dia com o Switch - Vigo"
 }];
 
 // LET LAST ITEM INSERT IN CONTENT TO TRANSFORM THIS IN SELECTED LABEL AT HTML TEMPLATE
