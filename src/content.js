@@ -238,6 +238,11 @@ var content = [
         "day": "47",
         "photo": "images/day-47.jpg",
         "label": "Foto: Passatempo do dia com o Switch - Vigo"
+    },
+    {
+        "day": "48",
+        "photo": "images/day-48.png",
+        "label": "Foto: Só o que fiz no dia todo - Vigo/Madrid"
     }
 ]
 
