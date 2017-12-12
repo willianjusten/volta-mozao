@@ -243,6 +243,11 @@ var content = [
         "day": "48",
         "photo": "images/day-48.png",
         "label": "Foto: Só o que fiz no dia todo - Vigo/Madrid"
+    },
+    {
+        "day": "49",
+        "photo": "images/day-49.jpg",
+        "label": "Foto: Templo de Debod - Madrid"
     }
 ]
 

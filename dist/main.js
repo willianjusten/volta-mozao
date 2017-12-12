@@ -196,6 +196,10 @@ var content = [{
     "day": "48",
     "photo": "images/day-48.png",
     "label": "Foto: Só o que fiz no dia todo - Vigo/Madrid"
+}, {
+    "day": "49",
+    "photo": "images/day-49.jpg",
+    "label": "Foto: Templo de Debod - Madrid"
 }];
 
 // LET LAST ITEM INSERT IN CONTENT TO TRANSFORM THIS IN SELECTED LABEL AT HTML TEMPLATE
