@@ -200,6 +200,10 @@ var content = [{
     "day": "49",
     "photo": "images/day-49.jpg",
     "label": "Foto: Templo de Debod - Madrid"
+}, {
+    "day": "50",
+    "photo": "images/day-50.jpg",
+    "label": "Foto: Sabre de Luz na Gran Via - Madrid"
 }];
 
 // LET LAST ITEM INSERT IN CONTENT TO TRANSFORM THIS IN SELECTED LABEL AT HTML TEMPLATE
