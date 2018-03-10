@@ -191,7 +191,7 @@ var content = [{
 }, {
     "day": "47",
     "photo": "images/day-47.jpg",
-    "label": "Foto: Passatempo do dia com o Switch - Vigo"
+    "label": "Foto: It's me Mario! - Vigo"
 }, {
     "day": "48",
     "photo": "images/day-48.png",
