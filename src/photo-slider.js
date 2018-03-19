@@ -4,13 +4,13 @@ function containsSelector(selector){
 
 // INITIATE SLIDE PHOTOS FUNCTIONALITY
 if(content.length > 1){
-        
+
     var nextPhoto = document.createElement('button');
 
         nextPhoto.classList.add('photo-next');
 
         nextPhoto.innerHTML = "next";
-    
+
     var prevPhoto = document.createElement('button');
 
         prevPhoto.classList.add('photo-prev');
@@ -38,26 +38,24 @@ if(containsSelector('.photo-prev')){
 
         }
 
-        
+
     })
-    
+
     nextPhoto.addEventListener('click', function(){
-        
+
         var dayShowed = actualToday += 1;
-    
-        document.body.style.backgroundImage = "url("+content[dayShowed - 1].photo+")";
-    
+
+        document.body.style.backgroundImage = "url(https://willianjusten.com.br/volta-mozao/"+content[dayShowed - 1].photo+")";
+
         document.querySelector('.label-photo').textContent = content[dayShowed - 1].label;
-    
+
         document.body.appendChild(prevPhoto);
-    
+
         if(dayShowed >= content.length){
-    
+
             nextPhoto.remove();
-    
+
         }
-            
+
     })
 }
-
-
