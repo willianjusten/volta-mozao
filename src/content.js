@@ -281,7 +281,7 @@ else{
 }
 
 // INSERT LAST NODE PHOTO VALUE IN BODY BACKGROUND
-document.body.style.backgroundImage = "url("+content[lastItemContent].photo+")";
+document.body.style.backgroundImage = "url(https://willianjusten.com.br/volta-mozao/"+content[lastItemContent].photo+")";
 
 // REMOVE TEMPLATE FROM PAGE AFTER LOAD
 function removeTemplate() {
