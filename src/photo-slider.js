@@ -26,7 +26,7 @@ if(containsSelector('.photo-prev')){
 
         var dayShowed = actualToday -= 1;
 
-        document.body.style.backgroundImage = "url("+content[dayShowed - 1].photo+")";
+        document.body.style.backgroundImage = "url(https://willianjusten.com.br/volta-mozao/"+content[dayShowed - 1].photo+")";
 
         document.querySelector('.label-photo').textContent = content[dayShowed - 1].label;
 
