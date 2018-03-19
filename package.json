@@ -6,8 +6,7 @@
   "scripts": {
     "clean": "rimraf dist",
     "watch": "npm run clean && mkdir dist && ./node_modules/.bin/babel src -w --out-file dist/main.js",
-    "build": "npm run clean && mkdir dist && ./node_modules/.bin/babel src --out-file dist/main.js",
-    "prepush": "npm run build"
+    "build": "npm run clean && mkdir dist && ./node_modules/.bin/babel src --out-file dist/main.js"
   },
   "repository": {
     "type": "git",
@@ -22,7 +21,6 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
-    "husky": "^0.14.3",
     "rimraf": "^2.6.2"
   }
 }
